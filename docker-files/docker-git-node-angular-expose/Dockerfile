@@ -34,7 +34,7 @@ RUN ng build
 #copy to server directory
 RUN cp -R dist/. /home/angular/test/server/public/
 
-#run express server 
+#change directory
 WORKDIR /home/angular/test/server
 
 #install dependencies
